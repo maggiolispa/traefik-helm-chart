@@ -47,7 +47,7 @@ items:
       {{- if $config.expose }}
       - port: {{ default $config.port $config.exposedPort }}
         name: {{ $name }}
-        targetPort: {{ $name | quote }}
+        targetPort: {{ default $config.port $config.exposedPort }}
         protocol: TCP
         {{- if $config.nodePort }}
         nodePort: {{ $config.nodePort }}
