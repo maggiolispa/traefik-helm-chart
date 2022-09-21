@@ -14,7 +14,7 @@ gh-pages.zip
 
 # Outputs directories
 dist/
-repo/
+#repo/
 
 # Unit test for helm
 __snapshot__
