@@ -24,6 +24,6 @@ entries:
     - https://github.com/traefik/traefik-helm-chart
     type: application
     urls:
-    - traefik-10.24.3.tgz
-    version: 10.24.3
-generated: "2022-09-21T15:18:09.691026261+02:00"
+    - traefik-21.1.0.tgz
+    version: 21.1.0
+generated: "2023-02-16T15:18:09.691026261+02:00"
