@@ -11,3 +11,4 @@ Go to `repo` folder
 Modify the version if needed in last part of the `index.yaml`
 
 # Push to Gighub
+Commit and push to Github
